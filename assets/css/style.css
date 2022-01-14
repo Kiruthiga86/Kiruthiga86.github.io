@@ -70,6 +70,16 @@ p {
   color: #daa49c;
 }
 
+#skills p,
+#education p,
+#experience p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
 
 
 
@@ -140,8 +150,7 @@ p {
     left: 50%;
     margin-left: -30px;
    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+
  }
 }
 #cd-timeline .cd-timeline-block .cd-timeline-img img {
@@ -208,7 +217,6 @@ p {
 }
 #cd-timeline .cd-timeline-block .cd-timeline-content .cd-date {
   display: inline-block;
-  float: left;
   padding: 0.8em 0;
   opacity: 0.7;
 }
